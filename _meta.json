@@ -1,0 +1,25 @@
+{
+  "name": "laoke-kb-architect",
+  "slug": "laoke-kb-architect",
+  "displayName": "知识库搭建助手",
+  "version": "1.0.0",
+  "author": "局内人·老K",
+  "category": "知识管理",
+  "tags": ["知识库", "知识管理", "结构化", "分块", "RAG", "第二大脑"],
+  "description": "通用知识库搭建助手，把长篇素材按标题层级切成结构化知识条目，自动生成分类标签摘要与去重指纹，配套信息架构分块策略与质量检查清单",
+  "compatibility": "通用（支持 Skill 的 Agent：Claude Code / CodeBuddy / DeepSeek / WorkBuddy 等）",
+  "license": "MIT",
+  "homepage": "",
+  "repository": "",
+  "createdAt": "2026-09-08",
+  "entry": "SKILL.md",
+  "scripts": ["scripts/kb_chunk.py"],
+  "references": [
+    "references/01_知识管理体系.md",
+    "references/02_信息架构与分类法.md",
+    "references/03_分块策略与粒度.md",
+    "references/04_条目模板与元数据.md",
+    "references/05_质量检查清单.md"
+  ],
+  "hooks": ["hooks/guardrail.md"]
+}
